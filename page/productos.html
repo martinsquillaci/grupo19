@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linkeo estilos CSS-->
+    <link rel="stylesheet" href="../assets/styles/style_animaciones.css">
+    <link rel="stylesheet" href="../assets/styles/style_inicio.css">
+    <link rel="stylesheet" href="../assets/styles/style_responsive.css">
+    <!--Linkeo fuentes google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amaranth&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <!--Linkeo Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--linkeo JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../JS/app.js"></script>
+    <!--linkeo svg-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Titulo de la pagina-->
+    <title>Productos</title>
+
+
+</head>
+
+<body class="body-producto">
+    <div class="portadaProducto">
+        <!--Menu de navegacion-->
+        <nav>
+            <!--logo-->
+            <div class="logoPrincipal">
+                <img class="logoProducto" src="../assets/img/logo.png" alt="logo-boria">
+                <p>Mendoza</p>
+            </div>
+
+            <!--menu-->
+            <div class="nav_items" id="_items">
+                <a href="../index.html">Inicio</a>
+                <a href="./productos.html">Productos</a>
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+            <ul class="menu2">
+                <li class="contacto">(+54) 261-7168715</li>
+            </ul>
+            <!--menu responsive-->
+            <div class="nav_toggle" id="_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <header>
+            <h1 class="tituloProducto zoomIn">Productos</h1>
+            <!--Botones dentro de la portada-->
+            <div class="botonesHeader">
+                <!--Boton con enlace a redes sociales-->
+                <div class="redSocialProductos">
+                    <li>
+                        <a href="https://www.instagram.com/boria_bomboneria/" target="_blank"><img
+                                src="../assets/img/icono instagram.png"
+                                alt="Instagram" width="50%"></a>
+                    </li>
+                    <li>
+                        <a href="https://wa.link/nsf5om" target="_blank"><img
+                                src="../assets/img/icono whatsapp.png"
+                                alt="whatsapp" width="50%"></a>
+                    </li>
+                </div>
+            </div>
+        </header>
+    </div>
+    <h3 class="subtituloProducto">Lo que ofrecemos:</h2>
+        <div class="contenedorProducto">
+            <!-- botones de enlace dentro de la pagina-->
+            <div class="imagenEnlace">
+                <img src="../assets/img/primer boton producto.png"
+                    width="70%">
+                <a href="#chocolates">
+                    <button class="botonPrincipal">Chocolates</button>
+                </a>
+            </div>
+            <div class="imagenEnlace">
+                <img src="../assets/img/segundo boton producto.png"
+                    width="70%">
+                <a href="#especiales">
+                    <button class="botonPrincipal">Especiales</button>
+                </a>
+            </div>
+            <div class="imagenEnlace">
+                <img src="../assets/img/tercer boton producto.png"
+                    width="70%">
+                <a href="#mesasDeChocolate">
+                    <button class="botonPrincipal">Mesas de chocolate</button>
+                </a>
+            </div>
+            <br>
+
+
+        </div>
+
+        <section class="contenedor">
+
+            <div class="contenedor-items">
+                <div class="item">
+                    <img src="../assets/img/bombon de vanguardia.png"
+                        alt="bombones" class="img-item">
+                    <span class="titulo-item">Bombones de vanguardia</span>
+                    <span class="precio-item">$4.000</span>
+                    <button class="boton-item">Agregar al carrito</button>
+                </div>
+                <div class="item">
+                    <img src="../assets/img/bombon de corte.png"
+                        alt="bombones" class="img-item">
+                    <span class="titulo-item">Bombones de corte</span>
+                    <span class="precio-item">$2.000</span>
+                    <button class="boton-item">Agregar al carrito</button>
+                </div>
+                <div class="item">
+                    <img src="../assets/img/roca suiza.png" alt="rocas"
+                        class="img-item">
+                    <span class="titulo-item">Rocas suizas</span>
+                    <span class="precio-item">$2.700</span>
+                    <button class="boton-item">Agregar al carrito</button>
+                </div>
+
+                <div class="item">
+                    <img src="../assets/img/box.png" alt="box"
+                        class="img-item">
+                    <span class="titulo-item">Box Xocolatl</span>
+                    <span class="precio-item">$18.000</span>
+                    <button class="boton-item">Agregar al carrito</button>
+                </div>
+                <div class="item">
+                    <img src="../assets/img/lunas.png" alt="lunas"
+                        class="img-item">
+                    <span class="titulo-item">Ciclo lunar</span>
+                    <span class="precio-item">$15.000</span>
+                    <button class="boton-item">Agregar al carrito</button>
+                </div>
+                <div class="item">
+                    <img src="../assets/img/ramo.png" alt="ramo"
+                        class="img-item">
+                    <span class="titulo-item">Ramo de trufas</span>
+                    <span class="precio-item">$8.000</span>
+                    <button class="boton-item">Agregar al carrito</button>
+                </div>
+
+                <div class="item">
+                    <img src="../assets/img/mesa clasica.png" alt="mesa"
+                        class="img-item">
+                    <span class="titulo-item">Mesa clasica</span>
+                    <span class="precio-item">Arma tu mesa</span>
+                    <button class="boton-item">Agregar al carrito</button>
+                </div>
+                <div class="item">
+                    <img src="../assets/img/candy bar.png" alt="candy"
+                        class="img-item">
+                    <span class="titulo-item">Candy bar</span>
+                    <span class="precio-item">Arma tu mesa</span>
+                    <button class="boton-item">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <!-- carrito de compras-->
+
+            <div class="carrito">
+                <div class="header-carrito">
+                    <h2> Tu carrito</h2>
+                </div>
+                <div class="carrito-items">
+
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash-can" style="color: antiquewhite;""></i>
+                </span>
+            
+            </div>
+            <div class=" carrito-total">
+                            <div class="fila">
+                                <strong>Tu total</strong>
+                                <span class="carrito-precio-total">
+                                </span>
+                            </div>
+                            <button class="btn-pagar"><i class="fa-solid fa-bag-shopping"> </i>Pagar
+                        </i></button>
+
+                </div>
+            </div>
+
+        </section>
+        <!--LINEA SEPARADORA-->
+        <div class="separador"></div>
+
+        <!--FOOTER-->
+        <footer>
+            <nav class="footer">
+                <div class="logoSecundario">
+                    <img src="../assets/img/logo.png" width="10%"
+                        class="logo">
+                    <div class="marca">
+                        <p class="boria"> Boria</p>
+                        <p class="bomboneria">Bomboneria</p>
+                    </div>
+
+                </div>
+
+                <ul class="footerMenu1">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+                <ul class="footerMenu2">
+                    <li>
+                        <p class="derechos">© 2023 Todos los derechos reservados.</p>
+                    </li>
+                    <li>
+                        <p class="derechos">Diseño y desarrollo: Ailen Videla</p>
+                    </li>
+                </ul>
+            </nav>
+
+        </footer>
+</body>
+
+</html>
